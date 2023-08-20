@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@media screen and (max-width: 1200px) {
+  .Smallborder{
+ left: 40px;
+ top: 100px;
+  }
+  .BigBorder{
+   right: 100px;
+  }
+  .wave{
+   left: 100px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .Trips {
+    padding: 30px;
+   
+  }
+}
+@media screen and (max-width: 1050px) {
+  .Smallborder{
+    left: 35px;
+    padding: 30px;
+    border-width: 15px;
+     }
+     .BigBorder{
+      right: 80px;
+     }
+     .Trips {
+      padding: 28px;
+     
+    }
+    .wave{
+      left: 80px;
+     }
+}
+@media screen and (max-width: 985px) {
+  .Trips {
+    padding: 10px;
+   
+  }
+}
+@media screen and (max-width: 890px) {
+  .Trips {
+    padding: 1px;
+  }
+  .Smallborder{
+    left: 25px;
+    top: 70px;
+  }
+  .BigBorder{
+    right: 50px;
+   }
+  .wave{
+    left: 60px;
+   }
+}
+@media screen and (max-width: 844px) {
+.Imgborder{
+  margin-top: 60px;
+  width: 70%;
+}
+
+}
+@media screen and (max-width: 700px) {
+.Imgborder{
+  margin-top: 80px;
+  width: 80%;
+}
+.Smallborder{
+  left: 45px;
+
+}
+.BigBorder{
+  padding: 50px;
+ }
+
+}
+@media screen and (max-width: 650px) {
+.Imgborder{
+  
+  width: 85%;
+}
+.Smallborder{
+  left: 25px;
+
+}
+
+}
+@media screen and (max-width: 550px) {
+.Imgborder{
+  width: 90%;
+}
+.Smallborder{
+  left: 20px;
+
+}
+.BigBorder{
+  padding: 40px;
+  border-width: 25px;
+ }
+
+
+}
+@media screen and (max-width: 500px) {
+.Imgborder{
+  width: 100%;
+}
+.Smallborder{
+  left: 20px;
+
+}
+.wave{
+  left: 40px;
+}
+.BigBorder{
+  padding: 40px;
+  border-width: 25px;
+  top: -40px;
+ }
+
+
+}
+@media screen and (max-width: 450px) {
+.Imgborder{
+  width: 100%;
+}
+.Smallborder{
+  left: 14px;
+}
+.wave{
+  left: 35px;
+  bottom: -25px;
+}
+.BigBorder{
+  /* padding: 40px;
+  border-width: 25px;
+  top: -40px; */
+ }
+
+
+}
+@media screen and (max-width: 430px) {
+.Imgborder{
+  width: 100%;
+}
+.Smallborder{
+  left: 16px;
+  padding: 25px;
+}
+.wave{
+  left: 35px;
+  bottom: -45px;
+}
+.BigBorder{
+  /* padding: 40px;
+  border-width: 25px;
+  top: -40px; */
+ }
+
+
+}
