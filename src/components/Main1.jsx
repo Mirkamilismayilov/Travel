@@ -1,3 +1,5 @@
+/* eslint-disable no-undef */
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from "react";
 import img from "../assets/camping-min.jpg";
 import imgL from "../assets/rrr.png";
@@ -6,16 +8,35 @@ import Main3 from "./Main3";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Main4 from "./Main4";
+import Main5 from "./Main5";
+import { slide as Menu } from "react-burger-menu";
+
 const Main1 = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
+  // showSettings = (e) =>{
+  //   e.preventDefault();
+ 
+  // }
   return (
     <div className="bg-[#293233] h-[1000vh] w-full ">
-      <div className="relative flex items-center justify-center ">
+    
+
+        <Menu pageWrapId={ "page-wrap" } className="z-50 relative bg-black">
+        <a id="home" className="menu-item text-white" href="/">Home</a>
+        <a id="about" className="menu-item text-white" href="/about">About</a>
+        <a id="contact" className="menu-item text-white" href="/contact">Contact</a>
+        <a onClick={{} } className="menu-item--small text-white z-50" href="">Settings</a>
+      </Menu>
+      
+ 
+      <div className="relative flex items-center justify-center">
+      
         <img
           src={img}
-          className="h-screen w-screen object-fill opacity-90"
+          className="min-h-screen w-screen object-cover opacity-90"
           alt=""
         />
 
@@ -66,6 +87,8 @@ const Main1 = () => {
       <Main3 />
       <br />
       <Main4/>
+      <br />
+      <Main5/>
     </div>
   );
 };

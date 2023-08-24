@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect } from 'react'
 import img1 from "../assets/Main4img1.jpg"
 import img2 from "../assets/Main4img2.jpg"
@@ -40,7 +41,26 @@ const Main4 = () => {
 
 
        </div>
+       
       </div>
+
+      <div  data-Aos="fade-up"
+            data-Aos-duration="2000"
+
+      className='TripsItem flex flex-col items-center gap-10 w-full p-10 justify-center mt-48'>
+        <h1 className=' h1Main4 text-white font-bold text-[60px] text-center'>Backpacking Trips</h1>
+        <div className='font-light'>
+          <div className='PMain4 text-[20px]  font-[500] text-white text-center'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </div> 
+        <div className='PMain4 text-[20px]  font-[500] text-white text-center'>sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</div> 
+        </div>
+        <div className='text-[20px] font-light text-white text-center' >Images from <a className='underline' href="#">freepik</a></div>
+        <button
+    
+              className="btnMain4  text-center  border-2 rounded-[100px] p-5 w-56 text-gray-50 hover:bg-white hover:text-black"
+            >
+             <span className='font-bold text-[18px]'>READ MORE</span> 
+            </button>
+       </div>
     </div>
   )
 }
