@@ -10,6 +10,7 @@ import "aos/dist/aos.css";
 import Main4 from "./Main4";
 import Main5 from "./Main5";
 import { slide as Menu } from "react-burger-menu";
+import Main6 from "./Main6";
 
 const Main1 = () => {
   useEffect(() => {
@@ -21,7 +22,7 @@ const Main1 = () => {
  
   // }
   return (
-    <div className="bg-[#293233] h-[1000vh] w-full ">
+    <div className="bg-[#293233] h-[10000vh] w-full ">
     
 
         <Menu pageWrapId={ "page-wrap" } className="z-50 relative bg-black">
@@ -89,6 +90,8 @@ const Main1 = () => {
       <Main4/>
       <br />
       <Main5/>
+      <br />
+      <Main6/>
     </div>
   );
 };

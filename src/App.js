@@ -1,7 +1,9 @@
 import Main1 from "./components/Main1";
-import "./index.css"
-import "./Main4.css"
-import "./Main5.css"
+import "./css/index.css"
+import "./css/Main4.css"
+import "./css/Main5.css"
+import "./css/Main6.css"
+
 function App() {
   return (
     <div className="App">
