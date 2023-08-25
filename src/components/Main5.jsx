@@ -15,18 +15,17 @@ const Main5 = () => {
    
       <div  data-Aos="zoom-in"
               data-Aos-duration="1300"
-      className='p-24  '><div
-       className='text-white w-full font-bold text-[53px] text-left'>Small group travel that's 
+      className='w-full p-24 H1Item  '><div
+       className='Main5H1 text-white w-7/12 font-bold text-[53px] text-left'>Small group travel that's 
       </div>
      <div 
-     className='text-white w-full font-bold text-[53px] text-left'>good all over</div> </div>
+     className='Main5H1  text-white w-7/12 font-bold text-[53px] text-left'>good all over</div> </div>
 
 
 
 <div className=' salam flex-wrap flex justify-center gap-20 items-center '>
 
-<div data-Aos="fade-right"
-            data-Aos-duration="2000" className=' bg-white w-[450px] rounded-3xl flex  justify-center gap-6  p-11 flex-col '>
+<div  className='Main5Info bg-white w-[450px] rounded-3xl flex  justify-center gap-6  p-11 flex-col '>
     
   <p className=' w-full text-[20px] opacity-75' >Sit amet massa vitae tortor condimentum lacinia quis. Ornare arcu dui vivamus arcu felis bibendum ut. Consectetur adipiscing elit duis tristique sollicitudin. Volutpat lacus laoreet non curabitur. Magna fringilla urna porttitor rhoncus. Ultricies leo integer malesuada nunc vel risus commodo viverra. Ipsum a arcu cursus vitae congue. Imperdiet dui accumsan sit amet nulla facilisi. Tincidunt dui ut ornare lectus sit. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Eget gravida cum sociis natoque. </p>
     <button
@@ -42,9 +41,8 @@ const Main5 = () => {
 
 
 
-      <div data-Aos="fade-left"
-            data-Aos-duration="2000"
-       className='w-4/12'><  img className='rounded-full object-cover w-full text-center' src={img} alt="" />
+      <div 
+       className='Main5img w-4/12'><  img className='rounded-full object-cover w-full text-center' src={img} alt="" />
       <div className='text-[20px] font-light text-white text-right' >Images from <a className='underline' href="#">freepik</a></div>
       </div>
           
