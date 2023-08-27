@@ -3,6 +3,7 @@
     left: -200px;
     bottom: -160px;
   }
+
   .MountainBorder {
     bottom: -140px;
     right: 20px;
@@ -14,10 +15,12 @@
     left: 40px;
     margin-top: -240px;
   }
+
   .MountainDownImg {
     left: -180px;
     bottom: -160px;
   }
+
   .MountainBorder {
     bottom: -120px;
     right: 10px;
@@ -30,13 +33,16 @@
   .ForestItem {
     margin-top: -200px;
   }
+
   .ForestBorder {
     bottom: -130px;
   }
+
   .MountainDownImg {
     left: -150px;
 
   }
+
   .MountainBorder {
     bottom: -80px;
     right: 5px;
@@ -50,13 +56,16 @@
     margin-top: -160px;
     left: 20px;
   }
+
   .ForestBorder {
     bottom: -130px;
     left: 50px;
   }
+
   .MountainDownImg {
     left: -110px;
   }
+
   .MountainBorder {
     bottom: -90px;
     right: 0;
@@ -68,10 +77,12 @@
     display: block;
     left: 100px;
   }
+
   .MountainItem {
     right: -250px;
     bottom: 30px;
   }
+
   .ForestItem {
     margin-top: -60px;
   }
@@ -86,10 +97,12 @@
     bottom: -100px;
 
   }
+
   .MountainDownImg {
     left: -100px;
     bottom: -120px;
   }
+
   .MountainBorder {
     padding: 40px;
     border-width: 28px;
@@ -101,17 +114,21 @@
   .ForestImg {
     width: 65%;
   }
+
   .ForestBorder {
     left: 30px;
   }
+
   .MountainUpImg {
     width: 100%
   }
+
   .MountainDownImg {
     left: -120px;
     bottom: -140px;
     width: 65%;
   }
+
   .MountainBorder {
     right: -20px;
     bottom: -30px;
@@ -123,31 +140,39 @@
     margin-top: -80px;
     left: 50px;
   }
+
   .ForestImg {
     width: 70%;
   }
+
   .ForestBorder {
     left: 20px;
   }
+
   .MountainItem {
     width: 55%;
   }
+
   .MountainUpImg {
     width: 100%
   }
+
   .MountainDownImg {
     left: -130px;
     bottom: -100px;
     width: 65%;
   }
-  .h1Main4{
+
+  .h1Main4 {
     font-size: 49px;
   }
-  .TripsItem{
+
+  .TripsItem {
     margin-top: 90px;
     gap: 25px;
   }
-  .PMain4{
+
+  .PMain4 {
     font-size: 15px;
   }
 }
@@ -157,15 +182,18 @@
     margin-top: -60px;
     left: 50px;
   }
+
   .MountainBorder {
     right: 10px;
     bottom: -30px;
     padding: 33px;
     border-width: 22px;
   }
+
   .MountainItem {
     width: 50%;
   }
+
   .MountainDownImg {
     left: -100px;
   }
@@ -175,31 +203,38 @@
   .MountainItem {
     width: 45%;
   }
+
   .MountainUpImg img {
     border-width: 6px;
   }
+
   .MountainDownImg {
     left: -80px;
     bottom: -80px;
     border-width: 10px;
   }
+
   .MountainBorder {
     border-width: 19px;
     bottom: -46px;
     padding: 30px;
   }
+
   .ForestBorder {
     left: -10px;
   }
+
   .ForestItem {
     margin-top: -50px;
     left: 80px;
   }
-  .TripsItem{
+
+  .TripsItem {
     margin-top: 80px;
     gap: 21px;
   }
-  .h1Main4{
+
+  .h1Main4 {
     font-size: 41px;
   }
 }
@@ -208,18 +243,22 @@
   .ForestItem {
     left: 50px;
   }
+
   .MountainItem {
     right: -200px;
   }
+
   .MountainBorder {
     right: -10px;
     padding: 25px;
     bottom: -20px;
   }
+
   .MountainDownImg {
     left: -60px;
     bottom: -60px;
   }
+
   .ForestBorder {
     border-width: 10px;
     padding: 20px;
@@ -232,14 +271,17 @@
     right: -170px;
     width: 55%;
   }
-  .TripsItem{
+
+  .TripsItem {
     margin-top: 40px;
     gap: 20px;
   }
-  .h1Main4{
+
+  .h1Main4 {
     font-size: 35px;
   }
-  .btnMain4{
+
+  .btnMain4 {
     width: 200px;
   }
 

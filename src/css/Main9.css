@@ -1,0 +1,23 @@
+@media screen and (max-width: 630px) {
+    .Main9H1 {
+        font-size: 45px;
+    }
+
+}
+
+@media screen and (max-width: 510px) {
+    .Main9Item {
+        left: 100px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .Main9Item {
+        left: 30px;
+        gap: 15px;
+    }
+
+    .Main9H1 {
+        font-size: 38px;
+    }
+}

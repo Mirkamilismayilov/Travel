@@ -9,8 +9,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import Main4 from "./Main4";
 import Main5 from "./Main5";
-import { slide as Menu } from "react-burger-menu";
 import Main6 from "./Main6";
+import Main7 from "./Main7";
+import Sec8 from "./Sec8";
+import Main9 from "./Main9";
+import Main10 from "./Main10";
 
 const Main1 = () => {
   useEffect(() => {
@@ -19,22 +22,11 @@ const Main1 = () => {
 
   // showSettings = (e) =>{
   //   e.preventDefault();
- 
+
   // }
   return (
-    <div className="bg-[#293233] h-[10000vh] w-full ">
-    
-
-        <Menu pageWrapId={ "page-wrap" } className="z-50 relative bg-black">
-        <a id="home" className="menu-item text-white" href="/">Home</a>
-        <a id="about" className="menu-item text-white" href="/about">About</a>
-        <a id="contact" className="menu-item text-white" href="/contact">Contact</a>
-        <a onClick={{} } className="menu-item--small text-white z-50" href="">Settings</a>
-      </Menu>
-      
- 
+    <div className="bg-[#293233] h-max w-full  ">
       <div className="relative flex items-center justify-center">
-      
         <img
           src={img}
           className="min-h-screen w-screen object-cover opacity-90"
@@ -87,11 +79,19 @@ const Main1 = () => {
       <br />
       <Main3 />
       <br />
-      <Main4/>
+      <Main4 />
       <br />
-      <Main5/>
+      <Main5 />
       <br />
-      <Main6/>
+      <Main6 />
+      <br />
+      <Main7 />
+      <br />
+      <Sec8 />
+      <br />
+      <Main9 />
+      <br />
+      <Main10 />
     </div>
   );
 };

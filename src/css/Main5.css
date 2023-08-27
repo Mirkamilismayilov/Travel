@@ -1,120 +1,133 @@
 @media screen and (max-width: 1260px) {
-    .Main5H1{
-       
+    .Main5H1 {
         width: 65%;
-    } 
-    .H1Item {
-        
     }
 
 }
+
 @media screen and (max-width: 1150px) {
-    .Main5H1{
+    .Main5H1 {
         width: 70%;
-    } 
-    .Main5Info{
+    }
+
+    .Main5Info {
         width: 480px;
         padding: 30px;
     }
-   .Main5img{
-    width: 40%;
-   }
+
+    .Main5img {
+        width: 40%;
+    }
 }
+
 @media screen and (max-width: 1070px) {
-    .Main5H1{
+    .Main5H1 {
         width: 80%;
         font-size: 45px;
-    } 
+    }
 
 }
+
 @media screen and (max-width: 1000px) {
-    .Main5Info{
+    .Main5Info {
         width: 490px;
         padding: 15px;
     }
 }
+
 @media screen and (max-width: 842px) {
-    .Main5H1{
+    .Main5H1 {
         font-size: 38px;
         width: 90%;
-        
-    } 
+
+    }
 
 }
+
 @media screen and (max-width: 800px) {
-  
-    .Main5Info{
+
+    .Main5Info {
         width: 530px;
         padding: 15px;
     }
-    .Main5img{
+
+    .Main5img {
         width: 60%;
-       }
+    }
 }
 
 @media screen and (max-width: 680px) {
-    .Main5H1{
+    .Main5H1 {
         width: 100%;
         font-size: 32px;
-         text-align: center;
-    } 
+        text-align: center;
+    }
 
 }
+
 @media screen and (max-width: 600px) {
-    .Main5img{
+    .Main5img {
         width: 70%;
-       }
-       .Main5Info{
+    }
+
+    .Main5Info {
         width: 500px;
         padding: 15px;
     }
-    
+
 
 }
- @media screen and (max-width: 564px) {
-    .Main5H1{
+
+@media screen and (max-width: 564px) {
+    .Main5H1 {
         font-size: 30px;
         text-align: center;
-        
-    } 
+
+    }
+
     .H1Item {
         padding: 60px;
         margin-top: -50px;
     }
 }
- @media screen and (max-width: 467px) {
-    .Main5H1{
+
+@media screen and (max-width: 467px) {
+    .Main5H1 {
         font-size: 33px;
-       text-align: center;
-        
-    } 
+        text-align: center;
+
+    }
+
     .H1Item {
         padding: 12px;
         margin-top: -50px;
-        
+
     }
 }
- @media screen and (max-width: 510px) {
-    .Main5Info{
+
+@media screen and (max-width: 510px) {
+    .Main5Info {
         width: 450px;
         padding: 30px;
 
     }
 }
- @media screen and (max-width: 450px) {
-    .Main5Info{
+
+@media screen and (max-width: 450px) {
+    .Main5Info {
         width: 350px;
         padding: 25px;
     }
-    .Main5img{
+
+    .Main5img {
         width: 85%;
-       }
-       
+    }
+
 }
- @media screen and (max-width: 410px) {
-    
+
+@media screen and (max-width: 410px) {
     .H1Item {
         padding: 40px;
-        
+
     }
 }
