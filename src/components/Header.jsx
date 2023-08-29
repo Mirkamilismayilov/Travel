@@ -18,7 +18,7 @@ const Header = () => {
 
        <div className={show ?  "Open" :"Close"}>
         <ul className='flex justify-center items-center flex-col   uppercase  '>
-         <button onClick={()=>setShow(!show)} className={!show  && "Close"} ><li className='text-right text-white p-2 text-[27px] w-[300px]'>X</li></button> 
+         <button onClick={()=>setShow(!show)} className={!show  && "Close"} ><li className='text-right text-white p-2 text-[27px] w-[300px] hover:text-red-600 '>X</li></button> 
           <li className='bg-amber-500 w-[300px] text-black text-center text-[20px] p-4 border-2'> <a href="#">Home</a> </li>
           <li className=' w-[300px] text-white  border-2 text-center text-[20px] p-4'> <a href="#">About</a> </li>
           <li className='bg-amber-500 w-[300px] text-black  border-2 text-center text-[20px] p-4'> <a href="#">Contact</a> </li>
