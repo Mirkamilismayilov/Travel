@@ -214,3 +214,21 @@ code {
   transition: 0.9s ease-in-out all;
   display: none;
 }
+.Open{
+  background-color: black;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 100;
+  transition-duration: 1s;
+}
+.Close{
+  background-color: black;
+  width: 300px;
+  height: 100vh;
+  position: fixed;
+  left: -300px;
+  z-index: 100;
+  transition-duration: 1s;
+}
