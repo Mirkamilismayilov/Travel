@@ -25,7 +25,7 @@ const Main1 = () => {
 
   // }
   return (
-    <div className="bg-[#293233] h-max w-full  ">
+    <div className="bg-[#293233] Main1 h-max w-full  ">
       <div className="relative flex items-center justify-center">
         <img
           src={img}
